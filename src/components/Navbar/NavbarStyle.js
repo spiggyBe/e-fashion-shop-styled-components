@@ -11,7 +11,6 @@ justify-content: space-between;
 align-items: center;
 position: relative;
 background-color: #fff;
-text-transform: capitalize;
 
   @media ( max-width: 900px ) {
     position: sticky;
@@ -22,8 +21,7 @@ text-transform: capitalize;
 `
 
 export const Logo = styled.div`
-flex: 1;
-font-size: 2rem;
+font-size: 2.5rem;
 font-weight: 700;
 color: ${primaryBlue};
 
@@ -42,11 +40,12 @@ color: ${primaryBlue};
 
 export const SearchSection = styled.div`
 display: flex;
-flex: 2;
+flex: 1;
 justify-content: center;
 align-items: center;
 border: 1px solid ${primaryBlue};
 border-radius: 3px;
+margin: 0 10px;
 `
 
 export const InputStyled = styled.input`
@@ -98,7 +97,7 @@ export const Hamburger = styled.div`
 
 export const NavList = styled.ul`;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 list-style: none;
 
 @media (max-width: 900px) {
@@ -138,6 +137,7 @@ text-decoration: none;
 line-height: 1.5rem;
 vertical-align: center;
 position: relative;
+text-transform: capitalize;
 
 &.active {
     border-bottom: 3px solid ${primaryBlue};

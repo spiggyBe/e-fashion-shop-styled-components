@@ -14,7 +14,7 @@ export const Navbar = () => {
 
     return (
         <Nav>
-            <Logo>MERN-shop</Logo>
+            <Logo>Fa(sh)op</Logo>
             <SearchSection>
                 <InputStyled />
                 <SearchIcon style={{ fill: '#0095DA' }} />
@@ -61,7 +61,7 @@ export const Navbar = () => {
                 </NavList>
             )}
 
-            <Badge badgeContent={15} color='primary'>
+            <Badge badgeContent={15} color='primary' style={{ marginRight: '10px' }}>
                 <ShoppingCartOutlinedIcon style={{ fill: '#0095DA' }} />
             </Badge>
 
