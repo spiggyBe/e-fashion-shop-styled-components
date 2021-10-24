@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
+import SearchIcon from '@mui/icons-material/Search'
 
 export const Nav = styled.nav`
 width: 100%;
 height: 100px;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 position: relative;
 background-color: #fff;
@@ -24,9 +25,34 @@ font-size: 2.5rem;
 font-weight: 700;
 color: #0095DA;
 
-@media ( max-width: 900px ) {
+@media ( max-width: 1400px ) {
   font-size: 1.5rem;
 }
+
+@media ( max-width: 1024px ) {
+  font-size: 1rem;
+}
+
+@media ( max-width: 768px ) {
+  font-size: 0.8rem;
+}
+`
+
+export const SearchSection = styled.div`
+display: flex;
+justify-content: flex-end;
+align-items: center;
+border: 1px solid #0095DA;
+border-radius: 3px;
+`
+
+export const InputStyled = styled.input`
+border: none;
+`
+
+export const StyledSearchIcon = styled(SearchIcon)`
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
 `
 
 export const Toggle = styled.div`
@@ -73,7 +99,7 @@ export const Hamburger = styled.div`
 
 export const NavList = styled.ul`;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 list-style: none;
 
 @media (max-width: 900px) {

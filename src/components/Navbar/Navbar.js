@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
-import { Nav, Logo, Toggle, Hamburger, NavList, NavItem, StyledLink, NavContact, StyledLinkContact } from './NavbarStyle'
+import { Nav, SearchSection, InputStyled, StyledSearchIcon, Logo, Toggle, Hamburger, NavList, NavItem, StyledLink, NavContact, StyledLinkContact } from './NavbarStyle'
+
 
 export const Navbar = () => {
     const [openedMenu, setOpenedMenu] = useState(false)
@@ -11,7 +12,11 @@ export const Navbar = () => {
 
     return (
         <Nav>
-            <Logo>MERN-shop-one</Logo>
+            <Logo>MERN-shop</Logo>
+            <SearchSection>
+                <InputStyled />
+                <StyledSearchIcon style={{ color: '#' }} />
+            </SearchSection>
             {openedMenu ? (
                 <NavList>
                     <NavItem slideINOut onClick={handleToggleHamburger}>
@@ -26,12 +31,12 @@ export const Navbar = () => {
                     <NavItem slideINOut onClick={handleToggleHamburger}>
                         <StyledLink to='/login'>login</StyledLink>
                     </NavItem>
-                    <NavContact>
+                    < NavContact >
                         <NavItem slideINOut onClick={handleToggleHamburger}>
                             <StyledLinkContact to='/register'>register</StyledLinkContact>
                         </NavItem>
                     </NavContact>
-                </NavList>
+                </NavList >
             ) : (
                 <NavList open>
                     <NavItem>
@@ -56,6 +61,6 @@ export const Navbar = () => {
             <Toggle onClick={handleToggleHamburger}>
                 {openedMenu ? <Hamburger open /> : <Hamburger />}
             </Toggle>
-        </Nav>
+        </Nav >
     )
 }
