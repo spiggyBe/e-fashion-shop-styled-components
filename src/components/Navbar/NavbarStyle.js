@@ -12,7 +12,10 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position: relative;
-background-color: #fff;
+background-color: transparent;;
+z-index: 9;
+opacity: .6;
+
 
   @media ( max-width: 900px ) {
     position: sticky;
@@ -27,6 +30,7 @@ font-size: 2.5rem;
 font-weight: 700;
 color: ${primaryBlue};
 text-transform: uppercase;
+cursor: pointer;
 
 @media ( max-width: 1400px ) {
   font-size: 1.5rem;
@@ -49,6 +53,7 @@ align-items: center;
 border: 1px solid ${primaryBlue};
 border-radius: 3px;
 margin: 0 10px;
+cursor: pointer;
 `
 
 export const InputStyled = styled.input`
@@ -120,8 +125,8 @@ list-style: none;
 `
 
 export const NavItem = styled.li`
-cursor: pointer;
 margin: 0 10px;
+cursor: pointer;
 
 @media (max-width: 926px) {
     padding: 0 5px;

@@ -1,11 +1,9 @@
 import React from 'react'
-import { Layout } from '../components/Layout/Layout'
+import { OurStory } from '../components/OurStory/OurStory'
 
 export const About = () => {
     return (
-        <Layout>
-            <h2>about page</h2>
-        </Layout>
+        <OurStory />
     )
 }
 
