@@ -10,9 +10,4 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 20px;
     color: #3F3F3F;
   }
-
-  body {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
 `

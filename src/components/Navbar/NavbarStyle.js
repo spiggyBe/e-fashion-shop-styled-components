@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom'
 const primaryBlue = '#0095DA'
 
 export const Nav = styled.nav`
+max-width: 1400px;
+margin: 0 auto;
 width: 100%;
 height: 100px;
 display: flex;
