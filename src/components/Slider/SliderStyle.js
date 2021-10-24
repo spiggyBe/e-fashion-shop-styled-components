@@ -3,8 +3,7 @@ import image1 from '../../assets/images/image1.jpg'
 
 export const SliderContainer = styled.div`
 width: 100%;
-height: 100vh;
-border: 2px solid green;
+height: calc(100vh - 100px);
 position: relative;
 background-image: url('${image1}');
 background-position: center;
