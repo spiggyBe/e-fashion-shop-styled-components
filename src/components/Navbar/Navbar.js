@@ -16,7 +16,7 @@ export const Navbar = () => {
         <Nav>
             <Logo>Fa(sh)op</Logo>
             <SearchSection>
-                <InputStyled />
+                <InputStyled placeholder="Search..." />
                 <SearchIcon style={{ fill: '#0095DA' }} />
             </SearchSection>
             {openedMenu ? (
@@ -61,7 +61,7 @@ export const Navbar = () => {
                 </NavList>
             )}
 
-            <Badge badgeContent={15} color='primary' style={{ marginRight: '10px' }}>
+            <Badge badgeContent={15} color='primary' style={{ marginRight: '10px', cursor: 'pointer' }}>
                 <ShoppingCartOutlinedIcon style={{ fill: '#0095DA' }} />
             </Badge>
 
