@@ -26,6 +26,7 @@ export const Logo = styled.div`
 font-size: 2.5rem;
 font-weight: 700;
 color: ${primaryBlue};
+text-transform: uppercase;
 
 @media ( max-width: 1400px ) {
   font-size: 1.5rem;
@@ -151,6 +152,7 @@ text-decoration: none;
 line-height: 1.5rem;
 vertical-align: center;
 position: relative;
+text-transform: capitalize;
 `
 
 export const NavContact = styled.div`
