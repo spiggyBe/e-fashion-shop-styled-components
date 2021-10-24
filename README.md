@@ -1,11 +1,13 @@
-### :relaxed: <h1> Hi! Thanks for visiting my profile</h1> :relaxed:
+:bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 
+<h1> Hi! Thanks for visiting my profile</h1>
+:bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 <div style="width: 80%; margin: 0 auto">
 <h2 style="text-align: center">:relaxed: Project Live :relaxed:</h2>
-<a href='https://mern-app-one.netlify.app/'>Check this out!!!</a>
+<a href='https://mern-app-one.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
 </div>
-
-In the project directory, you can run:
+:bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
+<h3>In the project directory, you can run:</h3>
 
 ### `yarn start`
 
