@@ -43,7 +43,7 @@ color: ${primaryBlue};
 export const SearchSection = styled.div`
 display: flex;
 flex: 2;
-justify-content: flex-end;
+justify-content: center;
 align-items: center;
 border: 1px solid ${primaryBlue};
 border-radius: 3px;

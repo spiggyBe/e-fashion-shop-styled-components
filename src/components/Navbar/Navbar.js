@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 import { Nav, SearchSection, InputStyled, Logo, Toggle, Hamburger, NavList, NavItem, StyledLink, NavContact, StyledLinkContact } from './NavbarStyle'
 import SearchIcon from '@mui/icons-material/Search'
-
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined'
+import Badge from '@mui/material/Badge'
 
 export const Navbar = () => {
     const [openedMenu, setOpenedMenu] = useState(false)
@@ -59,6 +60,11 @@ export const Navbar = () => {
                     </NavContact>
                 </NavList>
             )}
+
+            <Badge badgeContent={15} color='primary'>
+                <ShoppingCartOutlinedIcon style={{ fill: '#0095DA' }} />
+            </Badge>
+
             <Toggle onClick={handleToggleHamburger}>
                 {openedMenu ? <Hamburger open /> : <Hamburger />}
             </Toggle>
