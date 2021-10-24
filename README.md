@@ -1,8 +1,9 @@
-# Getting Started with Create React App
+### :relaxed: <h1> Hi! Thanks for visiting my profile</h1> :relaxed:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+<div style="width: 80%; margin: 0 auto">
+<h2 style="text-align: center">:relaxed: Project Live :relaxed:</h2>
+<a href='https://mern-app-one.netlify.app/'>Check this out!!!</a>
+</div>
 
 In the project directory, you can run:
 
