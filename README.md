@@ -2,13 +2,21 @@
 
 <h1> Hi! Thanks for visiting my profile</h1>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
-<div style="width: 80%; margin: 0 auto">
-<h2 style="text-align: center">:relaxed: Project Live :relaxed:</h2>
+<div>
+<h2>:relaxed: Project Live :relaxed:</h2>
 <a href='https://mern-app-one.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
 </div>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
-<h3>In the project directory, you can run:</h3>
 
+<h3> This project will be part of my personal portfolio and contains following tech-stack:<h3>
+<h5>:pig2: React js :pig2:</h5>
+<h5>:pig2: Styled-components :pig2:</h5>
+<h5>:pig2: Redux :pig2:</h5>
+<h5>:pig2: Express js :pig2:</h5>
+
+# => # => # => # => # => # => # => # => # => # => # => # = > # = ># = ># = ># = ># = ># = ># = >
+
+<h4>In the project directory, you can run:</h4>
 ### `yarn start`
 
 Runs the app in the development mode.\
