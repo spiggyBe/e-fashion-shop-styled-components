@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
-import { Nav, SearchSection, InputStyled, StyledSearchIcon, Logo, Toggle, Hamburger, NavList, NavItem, StyledLink, NavContact, StyledLinkContact } from './NavbarStyle'
+import { Nav, SearchSection, InputStyled, Logo, Toggle, Hamburger, NavList, NavItem, StyledLink, NavContact, StyledLinkContact } from './NavbarStyle'
+import SearchIcon from '@mui/icons-material/Search'
 
 
 export const Navbar = () => {
@@ -15,12 +16,12 @@ export const Navbar = () => {
             <Logo>MERN-shop</Logo>
             <SearchSection>
                 <InputStyled />
-                <StyledSearchIcon style={{ color: '#' }} />
+                <SearchIcon style={{ fill: '#0095DA' }} />
             </SearchSection>
             {openedMenu ? (
                 <NavList>
                     <NavItem slideINOut onClick={handleToggleHamburger}>
-                        <StyledLink exact to='/'>home</StyledLink>
+                        <StyledLink exact to='/'>shop</StyledLink>
                     </NavItem>
                     <NavItem slideINOut onClick={handleToggleHamburger}>
                         <StyledLink to='/about'>about</StyledLink>
@@ -40,7 +41,7 @@ export const Navbar = () => {
             ) : (
                 <NavList open>
                     <NavItem>
-                        <StyledLink exact to='/' activeClassName='active'>home</StyledLink>
+                        <StyledLink exact to='/' activeClassName='active'>shop</StyledLink>
                     </NavItem>
                     <NavItem>
                         <StyledLink to='/about' activeClassName='active'>about</StyledLink>

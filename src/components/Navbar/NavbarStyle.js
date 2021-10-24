@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import SearchIcon from '@mui/icons-material/Search'
+
+const primaryBlue = '#0095DA'
 
 export const Nav = styled.nav`
 width: 100%;
 height: 100px;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 position: relative;
 background-color: #fff;
@@ -20,10 +21,11 @@ text-transform: capitalize;
   }
 `
 
-export const Logo = styled.div`;
-font-size: 2.5rem;
+export const Logo = styled.div`
+flex: 1;
+font-size: 2rem;
 font-weight: 700;
-color: #0095DA;
+color: ${primaryBlue};
 
 @media ( max-width: 1400px ) {
   font-size: 1.5rem;
@@ -40,19 +42,16 @@ color: #0095DA;
 
 export const SearchSection = styled.div`
 display: flex;
+flex: 2;
 justify-content: flex-end;
 align-items: center;
-border: 1px solid #0095DA;
+border: 1px solid ${primaryBlue};
 border-radius: 3px;
 `
 
 export const InputStyled = styled.input`
+width: 100%;
 border: none;
-`
-
-export const StyledSearchIcon = styled(SearchIcon)`
-border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
 `
 
 export const Toggle = styled.div`
@@ -67,7 +66,7 @@ export const Toggle = styled.div`
 `
 
 export const Hamburger = styled.div`
-  background-color: #0095DA;
+  background-color: ${primaryBlue};
   width: 30px;
   height: 3px;
   transition: all .3s linear;
@@ -79,7 +78,7 @@ export const Hamburger = styled.div`
   ::after {
     width: 30px;
     height: 2px;
-    background-color: #0095DA;
+    background-color: ${primaryBlue};
     content: "";
     position: absolute;
     transition: all 0.3s linear;
@@ -113,7 +112,7 @@ list-style: none;
     top: 100px;
     height: 100vh;
     padding-top: 10px;
-    border-top: 2px solid #0095DA;
+    border-top: 2px solid ${primaryBlue};
     left: ${props => (props.open ? "-110%" : "0")};
   }
 `
@@ -141,7 +140,7 @@ vertical-align: center;
 position: relative;
 
 &.active {
-    border-bottom: 3px solid #0095DA;
+    border-bottom: 3px solid ${primaryBlue};
   }
 `
 
@@ -153,13 +152,13 @@ position: relative;
 `
 
 export const NavContact = styled.div`
-border: 2px solid #0095DA;
+border: 2px solid ${primaryBlue};
 border-radius: 3px;
 transition: all .3s linear;
 margin-left: .6rem;
 
 &:hover {
-    background-color: #0095DA;
+    background-color: ${primaryBlue};
 }
     
 &:hover ${StyledLinkContact} {

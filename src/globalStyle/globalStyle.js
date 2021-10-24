@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -8,5 +9,10 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 20px;
     color: #3F3F3F;
+  }
+
+  body {
+    max-width: 1400px;
+    margin: 0 auto;
   }
 `
