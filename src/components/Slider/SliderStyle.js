@@ -13,7 +13,8 @@ justify-content: center;
 align-items: center;
 width: 100vw;
 height: 100%;
-border: 3px solid red;
+position: relative;
+transform: translateX(${props => props.slideIndex * -100}vw);
 `
 
 export const ImageContainer = styled.div`
@@ -28,6 +29,7 @@ height: 100%;
 
 
 export const Arrow = styled.div`
+z-index: 9;
 width: 50px;
 height: 50px;
 background-color: #fff;
@@ -54,6 +56,7 @@ width: 55%;
 padding: 20px 50px;
 background-color: rgba(255, 255, 255, .5);
 border-radius: 3px;
+position: absolute;
 `
 
 export const SliderTitle = styled.h1`
