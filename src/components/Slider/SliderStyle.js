@@ -4,17 +4,23 @@ import image1 from '../../assets/images/image1.jpg'
 const primaryBlue = '#0095DA'
 
 export const SliderContainer = styled.div`
+
+width: 100%;
+height: calc(100vh - 100px);
+position: relative;
+`
+
+export const Slide = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: calc(100vh - 100px);
-position: relative;
+height: 100%;
 background-image: url('${image1}');
 background-position: top;
 background-size: cover;
 background-repeat: no-repeat;
-opacity: .8;
+
 `
 
 export const Arrow = styled.div`
@@ -34,7 +40,7 @@ right: ${props => props.rightArrow ? '10px' : ''};
 cursor: pointer;
 `
 
-export const StyledContent = styled.div`
+export const SliderContent = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -49,12 +55,14 @@ border-radius: 3px;
 export const SliderTitle = styled.h1`
 font-size: 2.5rem;
 font-weight: 700;
+letter-spacing: 2px;
 `
 
 export const SliderArticleContent = styled.span`
-font-size: 2rem;
+font-size: 1.5rem;
+line-height: 2rem;
 font-weight: 700;
-letter-spacing: 1px;
+letter-spacing: 2px;
 `
 
 export const ActionButton = styled.div`
@@ -62,12 +70,11 @@ align-self: center;
 padding: 10px 15px;
 border-radius: 3px;
 background-color: rgba(255, 255, 255, .1);
-color: ${primaryBlue};
-border: 2px solid ${primaryBlue};
+border: 2px solid #3F3F3F;
 text-transform : uppercase;
 cursor: pointer;
 font-weight: 700;
-font-size: 1.5rem;
+font-size: 1.2rem;
 transition: .3s;
 
 &:hover {
