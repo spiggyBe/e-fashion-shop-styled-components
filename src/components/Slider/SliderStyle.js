@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import image1 from '../../assets/images/image1.jpg'
 
 export const SliderContainer = styled.div`
 display: flex;
@@ -8,18 +7,25 @@ height: calc(100vh - 100px);
 position: relative;
 `
 
-export const Slide = styled.div`
+export const SlideWrapper = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
 width: 100vw;
 height: 100%;
-background-image: url('${image1}');
-background-position: top;
-background-size: cover;
-background-repeat: no-repeat;
-
+border: 3px solid red;
 `
+
+export const ImageContainer = styled.div`
+width: 100vw;
+height: 100%;
+`
+
+export const Image = styled.img`
+width: 100%;
+height: 100%;
+`
+
 
 export const Arrow = styled.div`
 width: 50px;
