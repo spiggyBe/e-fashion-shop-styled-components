@@ -4,7 +4,7 @@ import image1 from '../../assets/images/image1.jpg'
 const primaryBlue = '#0095DA'
 
 export const SliderContainer = styled.div`
-
+display: flex;
 width: 100%;
 height: calc(100vh - 100px);
 position: relative;
@@ -14,7 +14,7 @@ export const Slide = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-width: 100%;
+width: 100vw;
 height: 100%;
 background-image: url('${image1}');
 background-position: top;
@@ -78,7 +78,7 @@ font-size: 1.2rem;
 transition: .3s;
 
 &:hover {
-    background-color: ${primaryBlue};
+    background-color: #7FCAEC;
     color: #fff;
     border: 2px solid #fff;
     opacity: 1;

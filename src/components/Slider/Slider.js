@@ -17,6 +17,20 @@ export const Slider = () => {
                     <ActionButton>Start&nbsp;&nbsp;journey</ActionButton>
                 </SliderContent>
             </Slide>
+            <Slide>
+                <SliderContent>
+                    <SliderTitle>You are welcome...</SliderTitle>
+                    <SliderArticleContent>...if you want to change the world, first change yourself &amp; buy new clothes.</SliderArticleContent>
+                    <ActionButton>Start&nbsp;&nbsp;journey</ActionButton>
+                </SliderContent>
+            </Slide>
+            <Slide>
+                <SliderContent>
+                    <SliderTitle>You are welcome...</SliderTitle>
+                    <SliderArticleContent>...if you want to change the world, first change yourself &amp; buy new clothes.</SliderArticleContent>
+                    <ActionButton>Start&nbsp;&nbsp;journey</ActionButton>
+                </SliderContent>
+            </Slide>
             <Arrow rightArrow>
                 <KeyboardArrowRightIcon style={{ fontSize: '48px' }} />
             </Arrow>
