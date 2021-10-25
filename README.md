@@ -6,7 +6,7 @@
 <div style="width: 80%; margin: 0 auto">
 <h2 style="text-align: center">:relaxed: E-commerce project live :relaxed:</h2>
 >>>>>>> origin/dev
-<a href='https://mern-app-one.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
+<a href='https://e-fashop.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
 </div>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 
