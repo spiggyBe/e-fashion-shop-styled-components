@@ -3,7 +3,7 @@
 <h1> Hi! Thanks for visiting my profile</h1>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 <div style="width: 80%; margin: 0 auto">
-<h2 style="text-align: center">:relaxed: Project Live :relaxed:</h2>
+<h2 style="text-align: center">:relaxed: E-commerce project live :relaxed:</h2>
 <a href='https://mern-app-one.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
 </div>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
