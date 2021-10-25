@@ -6,11 +6,11 @@
 <div style="width: 80%; margin: 0 auto">
 <h2 style="text-align: center">:relaxed: E-commerce project live :relaxed:</h2>
 >>>>>>> origin/dev
-<a href='https://e-fashop.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
+<a href='https://e-fashion.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
 </div>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 
-<h3> This project will be part of my personal portfolio and contains following tech-stack:<h3>
+<h3> This project is developing since couple hours so nothing special yet, but will be part of my personal portfolio and contains following tech-stack:<h3>
 <h5>:pig2: React js :pig2:</h5>
 <h5>:pig2: Styled-components :pig2:</h5>
 <h5>:pig2: Redux :pig2:</h5>
