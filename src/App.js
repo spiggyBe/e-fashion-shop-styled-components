@@ -5,7 +5,7 @@ import {
   Route,
 } from 'react-router-dom'
 
-import { GlobalStyle } from './globalStyle/GlobalStyle'
+import GlobalStyle from './globalStyle/GlobalStyle'
 import { TopAd } from './components/TopAds/TopAd'
 import { Navbar } from './components/Navbar/Navbar'
 import { Home } from './pages/Home'
