@@ -44,6 +44,11 @@ transform: translateY(-50%);
 left: ${props => props.leftArrow ? '10px' : ''};
 right: ${props => props.rightArrow ? '10px' : ''};
 cursor: pointer;
+
+@media (max-width: 1048px ) {
+    width: 36px;
+    height: 36px;
+}
 `
 
 export const SliderContent = styled.div`
@@ -57,12 +62,24 @@ padding: 20px 50px;
 background-color: rgba(255, 255, 255, .5);
 border-radius: 3px;
 position: absolute;
+
+@media (max-width: 728px ) {
+    width: 100%;
+}
 `
 
 export const SliderTitle = styled.h1`
 font-size: 2.5rem;
 font-weight: 700;
 letter-spacing: 2px;
+
+@media (max-width: 1048px ) {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 368px ) {
+    font-size: .8rem;
+}
 `
 
 export const SliderArticleContent = styled.span`
@@ -70,11 +87,20 @@ font-size: 1.5rem;
 line-height: 2rem;
 font-weight: 700;
 letter-spacing: 2px;
+
+@media (max-width: 1048px ) {
+    font-size: .9rem;
+}
+
+@media (max-width: 368px ) {
+    font-size: .7rem;
+    line-height: 1rem;
+}
 `
 
 export const ActionButton = styled.div`
 align-self: center;
-padding: 10px 15px;
+padding: 5px 15px;
 border-radius: 3px;
 background-color: rgba(255, 255, 255, .1);
 border: 2px solid #3F3F3F;
@@ -89,5 +115,9 @@ transition: .3s;
     color: #fff;
     border: 2px solid #fff;
     opacity: 1;
+}
+
+@media (max-width: 1048px ) {
+    font-size: .8rem;
 }
 `
