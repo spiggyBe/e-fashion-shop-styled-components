@@ -95,6 +95,9 @@ letter-spacing: 2px;
 @media (max-width: 1048px ) {
     font-size: .9rem;
 }
+@media (max-width: 248px ) {
+    display: none;
+}
 
 @media (max-width: 368px ) {
     font-size: .7rem;
