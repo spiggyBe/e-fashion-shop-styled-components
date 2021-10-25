@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import image1 from '../../assets/images/image1.jpg'
 
-const primaryBlue = '#0095DA'
-
 export const SliderContainer = styled.div`
 display: flex;
 width: 100%;
