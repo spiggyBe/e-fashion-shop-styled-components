@@ -32,7 +32,7 @@ export const App = () => {
           <Route path="/error404" component={Error404} />
         </Switch>
       </Router>
-      <Footer />
+      {/*  <Footer /> */}
     </>
   )
 }

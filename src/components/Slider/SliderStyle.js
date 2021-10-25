@@ -5,6 +5,10 @@ display: flex;
 width: 100%;
 height: calc(100vh - 100px);
 position: relative;
+
+@media (max-width: 368px ) {
+    height: calc(80vh - 100px);
+}
 `
 
 export const SlideWrapper = styled.div`
