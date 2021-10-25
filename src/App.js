@@ -13,7 +13,7 @@ import { About } from './pages/About'
 import { Contact } from './pages/Contact'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
-import { Footer } from './components/Footer/Footer'
+/* import { Footer } from './components/Footer/Footer' */
 import { Error404 } from './pages/Error404'
 
 export const App = () => {
