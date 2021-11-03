@@ -5,7 +5,7 @@ display: flex;
 width: 100%;
 height: calc(100vh - 100px);
 position: relative;
-
+overflow: hidden;
 @media (max-width: 368px ) {
     height: calc(80vh - 100px);
 }
@@ -18,7 +18,8 @@ align-items: center;
 width: 100vw;
 height: 100%;
 position: relative;
-transform: translateX(${props => props.slideIndex * -100}vw);
+transform: translateX(${props => props.slideIndex * (-100)}vw);
+
 `
 
 export const ImageContainer = styled.div`
