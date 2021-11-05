@@ -1,10 +1,9 @@
 import React from 'react'
-import { Container, Left, Center, Right, Desc, SocialContainer, SocialIcon } from './FooterStyle'
+import { Container, Left, Center, Right, Desc, SocialContainer, SocialIcon, StyledList, StyledItem, StyledLinkA } from './FooterStyle'
 import { Logo } from '../Navbar/NavbarStyle'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import TwitterIcon from '@mui/icons-material/Twitter'
-
 
 export const Footer = () => {
     return (
@@ -28,7 +27,25 @@ export const Footer = () => {
                     </SocialIcon>
                 </SocialContainer>
             </Left>
-            <Center></Center>
+            <Center>
+                <StyledList>
+                    <StyledItem>
+                        <StyledLinkA href='/'>shop</StyledLinkA>
+                    </StyledItem>
+                    <StyledItem>
+                        <StyledLinkA href='/about' >about</StyledLinkA>
+                    </StyledItem>
+                    <StyledItem>
+                        <StyledLinkA href='/contact' >contact</StyledLinkA>
+                    </StyledItem>
+                    <StyledItem>
+                        <StyledLinkA href='/login'>login</StyledLinkA>
+                    </StyledItem>
+                    <StyledItem>
+                        <StyledLinkA href='/register'>register</StyledLinkA>
+                    </StyledItem>
+                </StyledList>
+            </Center>
             <Right></Right>
         </Container>
     )
