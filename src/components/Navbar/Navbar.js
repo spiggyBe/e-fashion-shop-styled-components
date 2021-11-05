@@ -25,7 +25,7 @@ export const Navbar = () => {
                         <StyledLink exact to='/'>shop</StyledLink>
                     </NavItem>
                     <NavItem slideINOut onClick={handleToggleHamburger}>
-                        <StyledLink to='/about'>products</StyledLink>
+                        <StyledLink to='/products'>products</StyledLink>
                     </NavItem>
                     <NavItem slideINOut onClick={handleToggleHamburger}>
                         <StyledLink to='/login'>login</StyledLink>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                         <StyledLink exact to='/' activeClassName='active'>shop</StyledLink>
                     </NavItem>
                     <NavItem>
-                        <StyledLink to='/about' activeClassName='active'>products</StyledLink>
+                        <StyledLink to='/products' activeClassName='active'>products</StyledLink>
                     </NavItem>
                     <NavItem>
                         <StyledLink to='/login' activeClassName='active'>login</StyledLink>
