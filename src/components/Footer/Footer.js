@@ -47,7 +47,7 @@ export const Footer = () => {
 
             </Center>
             <Right>
-                <UsefulLinks> Useful links:</UsefulLinks>
+                <UsefulLinks> Quick menu:</UsefulLinks>
                 <StyledList>
                     <StyledItem>
                         <StyledLinkA href='/'>shop</StyledLinkA>
