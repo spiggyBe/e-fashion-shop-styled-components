@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
 margin: 3px;
 position: relative;
+border-radius: 5px;
 `
 
 export const Info = styled.div`
@@ -21,6 +22,7 @@ flex-direction: column;
 export const Image = styled.img`
 width: 100%;
 height: 100%;
+border-radius: 5px;
 `
 
 export const Title = styled.h1`
@@ -35,7 +37,7 @@ export const Button = styled.button`
 cursor: pointer;
 padding: 5px 12px;
 border: none;
-border-radius: 3px;
+border-radius: 5px;
 background-color: #fff;
 `
 

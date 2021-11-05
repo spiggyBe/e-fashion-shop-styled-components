@@ -65,7 +65,7 @@ height: 50%;
 width: 55%;
 padding: 20px 50px;
 background-color: rgba(255, 255, 255, .5);
-border-radius: 3px;
+border-radius: 5px;
 position: absolute;
 
 @media (max-width: 728px ) {
@@ -109,7 +109,7 @@ letter-spacing: 2px;
 export const ActionButton = styled.div`
 align-self: center;
 padding: 5px 15px;
-border-radius: 3px;
+border-radius: 5px;
 background-color: rgba(255, 255, 255, .1);
 border: 2px solid #3F3F3F;
 text-transform : uppercase;

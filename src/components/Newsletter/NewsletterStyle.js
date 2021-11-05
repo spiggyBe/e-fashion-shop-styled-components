@@ -36,6 +36,8 @@ padding: 5px 10px ;
 border: none;
 height: 100%;
 text-align: center;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
 `
 
 export const IconSend = styled.div`
@@ -45,5 +47,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 100%;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
 `
 

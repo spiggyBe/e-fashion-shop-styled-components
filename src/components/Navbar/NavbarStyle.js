@@ -47,7 +47,7 @@ flex: 1;
 justify-content: center;
 align-items: center;
 border: 1px solid #3F3F3F;
-border-radius: 3px;
+border-radius: 5px;
 margin: 0 10px;
 cursor: pointer;
 `
@@ -144,7 +144,7 @@ position: relative;
 text-transform: capitalize;
 
 &.active {
-    border-bottom: 3px solid #3F3F3F;
+    border-bottom: 3px solid #0095DA;
   }
 `
 
@@ -158,7 +158,7 @@ text-transform: capitalize;
 
 export const NavContact = styled.div`
 border: 2px solid #3F3F3F;
-border-radius: 3px;
+border-radius: 5px;
 transition: all .3s linear;
 margin-left: .6rem;
 
