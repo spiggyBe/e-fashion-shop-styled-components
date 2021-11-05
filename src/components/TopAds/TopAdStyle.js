@@ -8,13 +8,13 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: #0095DA;
+background-color: #fff;
 opacity: .5;
 `
 
 export const TopAdTitle = styled.h1`
 text-transform: uppercase;
-color: #fff;
+color: #3F3F3F;
 
 
 animation: shake 2s linear infinite;
@@ -39,5 +39,5 @@ animation: shake 2s linear infinite;
 `
 
 export const TopAdContent = styled.span`
-color: #fff;
+color: #3F3F3F;
 `

@@ -21,34 +21,50 @@ export const categoriesData = [
 export const products = [
     {
         id: 1,
-        img: 'https://cdn.pixabay.com/photo/2015/06/10/13/23/clothesline-804812_960_720.jpg',
+        img: 'https://cdn.pixabay.com/photo/2016/03/31/19/21/clothes-1294933_960_720.png',
     },
     {
         id: 2,
-        img: 'https://cdn.pixabay.com/photo/2015/01/15/12/46/woman-600225_960_720.jpg',
+        img: 'https://cdn.pixabay.com/photo/2013/07/12/13/51/cap-147417_960_720.png',
     },
     {
         id: 3,
-        img: 'https://cdn.pixabay.com/photo/2015/10/12/15/18/clothing-store-984396_960_720.jpg',
+        img: 'https://cdn.pixabay.com/photo/2019/02/27/19/05/jacket-4024806_960_720.png',
     },
     {
         id: 4,
-        img: 'https://cdn.pixabay.com/photo/2015/03/26/09/54/person-690547_960_720.jpg',
+        img: 'https://cdn.pixabay.com/photo/2012/04/13/14/55/jacket-32714_960_720.png',
     },
     {
         id: 5,
-        img: 'https://cdn.pixabay.com/photo/2015/11/12/06/43/girl-1039729_960_720.jpg',
+        img: 'https://cdn.pixabay.com/photo/2012/04/12/19/05/coat-30208_960_720.png',
     },
     {
         id: 6,
-        img: 'https://cdn.pixabay.com/photo/2016/02/19/10/56/hip-hop-1209499_960_720.jpg',
+        img: 'https://cdn.pixabay.com/photo/2013/09/12/19/57/boots-181744_960_720.jpg',
     },
     {
         id: 7,
-        img: 'https://cdn.pixabay.com/photo/2017/08/01/08/16/couple-2563424_960_720.jpg',
+        img: 'https://cdn.pixabay.com/photo/2014/10/27/19/18/baby-shoes-505471_960_720.jpg',
     },
     {
         id: 8,
-        img: 'https://cdn.pixabay.com/photo/2017/02/08/02/56/booties-2047596_960_720.jpg',
-    }
+        img: 'https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_960_720.png',
+    },
+    {
+        id: 9,
+        img: 'https://cdn.pixabay.com/photo/2017/09/30/09/29/cowboy-hat-2801582_960_720.png',
+    },
+    {
+        id: 10,
+        img: 'https://cdn.pixabay.com/photo/2021/10/27/06/05/young-woman-6746060_960_720.png',
+    },
+    {
+        id: 11,
+        img: 'https://cdn.pixabay.com/photo/2016/03/31/19/19/cloth-1294908_960_720.png',
+    },
+    {
+        id: 12,
+        img: 'https://cdn.pixabay.com/photo/2016/08/10/11/24/woman-1583004_960_720.png',
+    },
 ]

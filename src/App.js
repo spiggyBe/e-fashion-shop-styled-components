@@ -13,8 +13,9 @@ import { About } from './pages/About'
 import { Contact } from './pages/Contact'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
-/* import { Footer } from './components/Footer/Footer' */
 import { Error404 } from './pages/Error404'
+import { Newsletter } from './components/Newsletter/Newsletter'
+import { Footer } from './components/Footer/Footer'
 
 export const App = () => {
   return (
@@ -32,7 +33,8 @@ export const App = () => {
           <Route path="/error404" component={Error404} />
         </Switch>
       </Router>
-      {/*  <Footer /> */}
+      <Newsletter />
+      <Footer />
     </>
   )
 }

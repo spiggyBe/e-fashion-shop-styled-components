@@ -6,8 +6,8 @@ export const TopAd = () => {
 
 
     const fakeAds = {
-        fakeTitle: 'Sommer Sale!!!',
-        fakeContent: 'bla bla bla bla bla bla bla blabla bla bla blabla bla bla blabla bla bla bla'
+        fakeTitle: 'Summer Sale!!!',
+        fakeContent: 'Take me where the summer never ends.'
     }
 
     return (

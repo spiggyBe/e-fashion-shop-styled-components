@@ -119,7 +119,7 @@ font-size: 1.2rem;
 transition: .3s;
 
 &:hover {
-    background-color: #7FCAEC;
+    background-color: #3F3F3F;
     color: #fff;
     border: 2px solid #fff;
     opacity: 1;

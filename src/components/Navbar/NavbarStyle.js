@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 
-const primaryBlue = '#0095DA'
-
 export const Nav = styled.nav`
 max-width: 1400px;
 margin: 0 auto;
@@ -14,8 +12,6 @@ align-items: center;
 position: relative;
 background-color: transparent;;
 z-index: 9;
-opacity: .6;
-
 
   @media ( max-width: 900px ) {
     position: sticky;
@@ -28,7 +24,7 @@ opacity: .6;
 export const Logo = styled.div`
 font-size: 2.5rem;
 font-weight: 700;
-color: ${primaryBlue};
+color: #3F3F3F;
 text-transform: uppercase;
 cursor: pointer;
 
@@ -50,7 +46,7 @@ display: flex;
 flex: 1;
 justify-content: center;
 align-items: center;
-border: 1px solid ${primaryBlue};
+border: 1px solid #3F3F3F;
 border-radius: 3px;
 margin: 0 10px;
 cursor: pointer;
@@ -73,7 +69,7 @@ export const Toggle = styled.div`
 `
 
 export const Hamburger = styled.div`
-  background-color: ${primaryBlue};
+  background-color: #3F3F3F;
   width: 30px;
   height: 3px;
   transition: all .3s linear;
@@ -85,7 +81,7 @@ export const Hamburger = styled.div`
   ::after {
     width: 30px;
     height: 2px;
-    background-color: ${primaryBlue};
+    background-color: #3F3F3F;
     content: "";
     position: absolute;
     transition: all 0.3s linear;
@@ -119,7 +115,7 @@ list-style: none;
     top: 100px;
     height: 100vh;
     padding-top: 10px;
-    border-top: 2px solid ${primaryBlue};
+    border-top: 2px solid #3F3F3F;
     left: ${props => (props.open ? "-110%" : "0")};
   }
 `
@@ -148,7 +144,7 @@ position: relative;
 text-transform: capitalize;
 
 &.active {
-    border-bottom: 3px solid ${primaryBlue};
+    border-bottom: 3px solid #3F3F3F;
   }
 `
 
@@ -161,13 +157,13 @@ text-transform: capitalize;
 `
 
 export const NavContact = styled.div`
-border: 2px solid ${primaryBlue};
+border: 2px solid #3F3F3F;
 border-radius: 3px;
 transition: all .3s linear;
 margin-left: .6rem;
 
 &:hover {
-    background-color: ${primaryBlue};
+    background-color: #3F3F3F;
 }
     
 &:hover ${StyledLinkContact} {
