@@ -19,6 +19,9 @@ padding: 10px;
 
 export const Center = styled.div`
 flex: 2;
+display: flex;
+flex-direction: column;
+align-items: center;
 `
 
 export const Right = styled.div`
@@ -61,7 +64,7 @@ text-transform: capitalize;
 cursor: pointer;
 `
 
-export const Payments = styled.h2`
+export const Contact = styled.h2`
 font-size: 36px;
 font-weight: 600;
 text-align: center;
@@ -69,13 +72,25 @@ margin: 10px 0 20px 0;
 
 @media ( max-width: 1080px ) {
     font-size: 24px;
+    margin-top: 50px;
+}
+`
+export const Payments = styled.div`
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+@media (max-width: 1080px) {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
 }
 `
 
 export const Image = styled.img`
-height: 150px;
+
 border-radius: 5px;
-width: 32%;
+width: 30%;
 
 @media ( max-width: 1080px ) {
     width: 100%;
@@ -90,5 +105,6 @@ margin: 10px 0 20px 0;
 
 @media (max-width: 1080px ) {
     font-size: 24px;
+    margin-top: 50px;
 }
 `

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Left, Center, Right, Desc, SocialContainer, SocialIcon, StyledList, StyledItem, StyledLinkA, Payments, Image, UsefulLinks } from './FooterStyle'
+import { Container, Left, Center, Right, Desc, SocialContainer, SocialIcon, StyledList, StyledItem, StyledLinkA, Contact, Payments, Image, UsefulLinks } from './FooterStyle'
 import { Logo } from '../Navbar/NavbarStyle'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
@@ -8,6 +8,9 @@ import TwitterIcon from '@mui/icons-material/Twitter'
 import visa from '../../assets/images/visa.png'
 import paypal from '../../assets/images/paypal.png'
 import crypto from '../../assets/images/crypto.png'
+
+import AddLocationIcon from '@mui/icons-material/AddLocation'
+import PhoneIcon from '@mui/icons-material/Phone'
 
 
 export const Footer = () => {
@@ -33,10 +36,15 @@ export const Footer = () => {
                 </SocialContainer>
             </Left>
             <Center>
-                <Payments>Payments</Payments>
-                <Image src={visa} />
-                <Image src={paypal} />
-                <Image src={crypto} />
+                <Contact>Contact</Contact>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}><PhoneIcon />+47 456 123 78</div>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}><AddLocationIcon />Blue Stone xXx, Bergen</div>
+                <Payments>
+                    <Image src={visa} />
+                    <Image src={paypal} />
+                    <Image src={crypto} />
+                </Payments>
+
             </Center>
             <Right>
                 <UsefulLinks> Useful links:</UsefulLinks>
