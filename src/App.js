@@ -9,8 +9,7 @@ import GlobalStyle from './globalStyle'
 import { TopAd } from './components/TopAds/TopAd'
 import { Navbar } from './components/Navbar/Navbar'
 import { Home } from './pages/Home'
-import { About } from './pages/About'
-import { Contact } from './pages/Contact'
+import { Products } from './pages/Products'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
 import { Error404 } from './pages/Error404'
@@ -26,8 +25,7 @@ export const App = () => {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/products" component={Products} />
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/error404" component={Error404} />

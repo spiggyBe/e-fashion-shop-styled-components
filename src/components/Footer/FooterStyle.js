@@ -3,6 +3,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 display: flex;
+height: 25vh;
+@media ( max-width: 1080px) {
+    flex-direction: column;
+}
 `
 
 export const Left = styled.div`
@@ -14,13 +18,11 @@ padding: 10px;
 `
 
 export const Center = styled.div`
-flex: 1;
+flex: 2;
 `
 
 export const Right = styled.div`
-flex: 2;
-border: 2px solid green;
-
+flex: 1;
 `
 
 export const Desc = styled.p`
@@ -44,7 +46,7 @@ width: 100%;
 height: 100%;
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 `
 
 export const StyledItem = styled.li`
@@ -57,4 +59,36 @@ export const StyledLinkA = styled.a`
 text-decoration: none;
 text-transform: capitalize;
 cursor: pointer;
+`
+
+export const Payments = styled.h2`
+font-size: 48px;
+font-weight: 600;
+text-align: center;
+margin: 10px 0 20px 0;
+
+@media ( max-width: 1080px ) {
+    font-size: 24px;
+}
+`
+
+export const Image = styled.img`
+height: 150px;
+border-radius: 5px;
+width: 32%;
+
+@media ( max-width: 1080px ) {
+    width: 100%;
+    padding: 0 10%;
+}
+`
+export const UsefulLinks = styled.div`
+text-align: center;
+font-size: 48px;
+font-weight: 600;
+margin: 10px 0 20px 0;
+
+@media (max-width: 1080px ) {
+    font-size: 24px;
+}
 `

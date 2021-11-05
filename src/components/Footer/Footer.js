@@ -1,9 +1,14 @@
 import React from 'react'
-import { Container, Left, Center, Right, Desc, SocialContainer, SocialIcon, StyledList, StyledItem, StyledLinkA } from './FooterStyle'
+import { Container, Left, Center, Right, Desc, SocialContainer, SocialIcon, StyledList, StyledItem, StyledLinkA, Payments, Image, UsefulLinks } from './FooterStyle'
 import { Logo } from '../Navbar/NavbarStyle'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import TwitterIcon from '@mui/icons-material/Twitter'
+
+import visa from '../../assets/images/visa.png'
+import paypal from '../../assets/images/paypal.png'
+import crypto from '../../assets/images/crypto.png'
+
 
 export const Footer = () => {
     return (
@@ -28,6 +33,13 @@ export const Footer = () => {
                 </SocialContainer>
             </Left>
             <Center>
+                <Payments>Payments</Payments>
+                <Image src={visa} />
+                <Image src={paypal} />
+                <Image src={crypto} />
+            </Center>
+            <Right>
+                <UsefulLinks>Links:</UsefulLinks>
                 <StyledList>
                     <StyledItem>
                         <StyledLinkA href='/'>shop</StyledLinkA>
@@ -45,8 +57,7 @@ export const Footer = () => {
                         <StyledLinkA href='/register'>register</StyledLinkA>
                     </StyledItem>
                 </StyledList>
-            </Center>
-            <Right></Right>
+            </Right>
         </Container>
     )
 }
