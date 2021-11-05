@@ -39,7 +39,7 @@ export const Footer = () => {
                 <Image src={crypto} />
             </Center>
             <Right>
-                <UsefulLinks>Links:</UsefulLinks>
+                <UsefulLinks> Useful links:</UsefulLinks>
                 <StyledList>
                     <StyledItem>
                         <StyledLinkA href='/'>shop</StyledLinkA>

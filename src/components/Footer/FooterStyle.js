@@ -62,7 +62,7 @@ cursor: pointer;
 `
 
 export const Payments = styled.h2`
-font-size: 48px;
+font-size: 36px;
 font-weight: 600;
 text-align: center;
 margin: 10px 0 20px 0;
@@ -84,7 +84,7 @@ width: 32%;
 `
 export const UsefulLinks = styled.div`
 text-align: center;
-font-size: 48px;
+font-size: 36px;
 font-weight: 600;
 margin: 10px 0 20px 0;
 
