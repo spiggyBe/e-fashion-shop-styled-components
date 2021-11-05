@@ -45,10 +45,7 @@ export const Footer = () => {
                         <StyledLinkA href='/'>shop</StyledLinkA>
                     </StyledItem>
                     <StyledItem>
-                        <StyledLinkA href='/about' >about</StyledLinkA>
-                    </StyledItem>
-                    <StyledItem>
-                        <StyledLinkA href='/contact' >contact</StyledLinkA>
+                        <StyledLinkA href='/products' >products</StyledLinkA>
                     </StyledItem>
                     <StyledItem>
                         <StyledLinkA href='/login'>login</StyledLinkA>
