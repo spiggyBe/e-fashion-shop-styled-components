@@ -7,7 +7,7 @@ export const CategoryItem = ({ el }) => {
             <Image src={el.img} />
             <Info>
                 <Title>{el.title}</Title>
-                <Button>BUY NOW</Button>
+                <Button>CHECK NOW</Button>
             </Info>
         </Container>
     )
