@@ -31,7 +31,7 @@ height: 40px;
 `
 
 export const Input = styled.input`
-width: 30%;
+width: 80%;
 padding: 5px 10px ;
 border: none;
 height: 100%;
@@ -49,5 +49,6 @@ justify-content: center;
 height: 100%;
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
+cursor: pointer;
 `
 
