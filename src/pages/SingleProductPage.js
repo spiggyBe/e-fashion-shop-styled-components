@@ -77,6 +77,63 @@ const FilterSizeOption = styled.option`
 cursor: pointer;
 `
 
+const CalculatePrice = styled.div`
+display: flex;
+align-items: center;
+`
+
+const AddMinus = styled.div`
+margin-left: 20px;
+display: flex;
+align-items: center;
+`
+
+const Add = styled.span`
+border: 2px solid #0095da;
+width: 30px;
+height: 20px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+
+`
+
+const Quantity = styled.span`
+width: 30px;
+height: 30px;
+line-height: 30px;
+border: 2px solid #0095da;
+text-align: center;
+vertical-align: middle;
+border-radius: 10px;
+margin: 0 10px;
+`
+
+const Minus = styled.span`
+border: 2px solid #0095da;
+height: 20px;
+width: 30px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+`
+
+const AddBtn = styled.button`
+margin-left: 20px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+background-color: #fff;
+padding: 5px;
+border: 2px solid #0095da;
+`
+
 
 export const SingleProductPage = () => {
     return (
@@ -112,6 +169,12 @@ export const SingleProductPage = () => {
                         </FilterSizeSelect>
                     </Filter>
                 </FilterContainer>
+                <AddMinus>
+                    <Add>+</Add>
+                    <Quantity>1</Quantity>
+                    <Minus>-</Minus>
+                    <AddBtn>Add to cart</AddBtn>
+                </AddMinus>
                 <Price>Price: <span>$ 25</span></Price>
             </InfoContainer>
         </Container>
