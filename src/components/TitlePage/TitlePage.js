@@ -5,7 +5,7 @@ export const TitlePage = () => {
     return (
         <Container>
             <Title>
-                Shoes
+                Products
             </Title>
         </Container>
     )

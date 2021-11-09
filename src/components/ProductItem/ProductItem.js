@@ -9,7 +9,7 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined'
 export const ProductItem = ({ el }) => {
     return (
         <Container>
-            <Image src={el.img} />
+            <Image src={el.img} alt='product item' />
             <IconContainer>
                 <Icon>
                     <FavoriteBorderOutlinedIcon style={{ fill: '#000' }} />

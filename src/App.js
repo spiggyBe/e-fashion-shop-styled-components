@@ -12,9 +12,10 @@ import { Home } from './pages/Home'
 import { ProductsPage } from './pages/ProductsPage'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
-import { Error404 } from './pages/Error404'
 import { Newsletter } from './components/Newsletter/Newsletter'
 import { Footer } from './components/Footer/Footer'
+import { SingleProductPage } from './pages/SingleProductPage'
+import { Error404 } from './pages/Error404'
 
 export const App = () => {
   return (
@@ -29,6 +30,7 @@ export const App = () => {
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/error404" component={Error404} />
+          <Route path="/single-product" component={SingleProductPage} />
         </Switch>
       </Router>
       <Newsletter />
