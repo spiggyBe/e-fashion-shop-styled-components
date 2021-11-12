@@ -10,11 +10,10 @@
 </div>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 
-<h3> This project is developing since couple hours so nothing special yet, but will be part of my personal portfolio and contains following tech-stack:<h3>
+<h3> This project contains following tech-stack:<h3>
 <h5>:pig2: React js :pig2:</h5>
 <h5>:pig2: Styled-components :pig2:</h5>
-<h5>:pig2: Redux :pig2:</h5>
-<h5>:pig2: Express js :pig2:</h5>
+<h5>:pig2: Redux-toolkit :pig2:</h5>
 
 # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # =>
 
