@@ -1,6 +1,6 @@
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 
-<h1> Hi! Thanks for visiting my profile</h1>
+<h1> Hi! </h1>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 
 <div style="width: 80%; margin: 0 auto">
@@ -11,10 +11,7 @@
 
 <h3> This project contains following tech-stack:<h3>
 <h5>:pig2: React js :pig2:</h5>
-<h5>:pig2: Styled-components :pig2:</h5>
-<h5>:pig2: Redux-toolkit :pig2:</h5>
-
-# => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # => # =>
+<h5>:pig2: Styled-components </h5>
 
 <h4>In the project directory, you can run:</h4>
 ### `yarn start`
