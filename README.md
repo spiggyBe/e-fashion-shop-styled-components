@@ -5,7 +5,7 @@
 
 <div style="width: 80%; margin: 0 auto">
 <h2 style="text-align: center">:relaxed: E-commerce project live :relaxed:</h2>
-<a href='https://e-fashion.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
+<a href='https://styled-components-basic.netlify.app/'>:relaxed: Check this out - click me !!! :relaxed: </a>
 </div>
 :bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb::bomb:
 
